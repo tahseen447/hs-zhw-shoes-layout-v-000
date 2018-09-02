@@ -31,6 +31,7 @@
   float:left;
   width: 66%;
 }
+
 [class*="col-"] {
   margin-left: 2%;
 }
