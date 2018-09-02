@@ -8,7 +8,10 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
-
+.clearfix {
+  clear :both;
+  margin-bottom: 2%;
+}
 .clearfix:after {
   content: ".";
   display: block;
@@ -23,24 +26,19 @@
 }
 
 /* Posititoning Classes */
-#lady-bug{
+.col-1{
+  float: left;
+  width: 32%;
+  background-color: #ccc;
+}
+.col-2{
   float:left;
-  width:32%;
-  margin:1% 1% 1% 0%;
+  width: 66%;
+  background-color: #ccc;
 }
-
-#skate-shoe{
-  float:left;
-  width:31%;
-  margin:1%;
+[class*="col-"] {
+  margin-left: 1%;
 }
-
-#heel-3{
-  float:right;
-  width:32%;
-  margin:1% 0% 1% 0%;
-}
-
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
