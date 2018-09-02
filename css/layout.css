@@ -36,6 +36,10 @@
   margin-left: 2%;
 }
 
+first {
+  margin-left: 0;
+}
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
