@@ -21,10 +21,6 @@
   line-height: 0;
 }
 
-.clear {
-  clear: both;
-}
-
 /* Posititoning Classes */
 .col-1{
   float: left;
